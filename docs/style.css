@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+}
+
+* {
+    user-select: none;
+}
+
+#first-line div {
+    float: left;
+    text-align: center;
+}
+
+#first-line .key1 {
+    width: 40px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#first-line .key2 {
+    width: 30px;
+    height: 70px;
+    background-color: black;
+}
+
+#first-line .key1 span {
+    font-family: arial;
+    color: black;
+    vertical-align: bottom;
+    line-height: 120px;
+}
+
+#first-line .key2 span {
+    font-family: arial;
+    color: white;
+    vertical-align: bottom;
+    line-height: 120px;
+}
